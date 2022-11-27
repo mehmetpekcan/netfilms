@@ -5,7 +5,7 @@ async function delay(ms) {
 }
 
 async function fetchData(path, { query = "" } = {}) {
-  await delay(3000);
+  await delay(1000);
 
   try {
     const res = await fetch(
